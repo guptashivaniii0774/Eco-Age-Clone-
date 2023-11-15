@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(254, 215, 204);
+    padding: 10px 40px;
+}
+
+.sec1 {
+    width: 10%;
+    cursor: pointer;
+
+}
+
+.sec2 {
+    width: 60%;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  position: relative;
+  left: 180px;
+
+}
+
+.sec2 a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+  
+
+
+}
+
+.sec2 a:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.sec3 {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.sec3 i {
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+@media (max-width: 960px) {
+    nav {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(254, 215, 204);
+        padding: 10px 40px;
+
+    }
+
+    .sec2 {
+
+        display: none;
+
+    }
+
+
+}
+
+/* ===================================================================================================================================================== */
+
+.con1 {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(38, 63, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+}
+
+.con1 p {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Arapey', serif;
+    line-height: 50px;
+    letter-spacing: -1px;
+
+
+}
+
+@media (max-width: 960px){
+    .con1{
+        height: 250px;
+        width: 100%;
+        background-color: rgb(38, 63, 44);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+  
+    }
+    .con1 p {
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Arapey', serif;
+    }
+}
+@media (min-width: 480px){
+    .con1{
+        height: 250px;
+        width: 100%;
+        background-color: rgb(38, 63, 44);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+ 
+  
+    }
+    .con1 p {
+        font-size: 32px;
+        font-weight: 500;
+        color: white;
+        font-family: 'Arapey', serif;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+}
+/* ========================================================================================================================================================= */
+.con2 {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(254, 215, 204);
+
+}
+
+.con2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(214, 63, 114);
+    margin: 30px;
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+    font-weight: 100;
+}
+
+.con2 .text1 {
+    width: 160px;
+    height: 55px;
+    padding: 20px;
+}
+
+.con2 .text2 {
+    width: 250px;
+    height: 55px;
+    padding: 20px;
+}
+
+.con2 .text3 {
+    width: 250px;
+    height: 55px;
+    padding: 20px;
+}
+
+.con2 .text4 {
+    width: 200px;
+    height: 55px;
+    padding: 20px;
+}
+
+@media (max-width: 960px){
+    .con2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgb(254, 215, 204);
+        padding: 40px;
+    
+    }
+
+    .con2 div {
+        margin: 10px;
+    }
+
+}
+
+/* ==================================================================================================================================================== */
+
+.con3 {
+    width: 100%;
+    height: 140vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 250px);
+    justify-content: center;
+
+}
+.gridbox:hover {
+    box-shadow: inset 100px 100px 100px 100px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.box1 {
+    background-image: url(./images/img1.png);
+    background-position: center;
+    background-size: 115% 100%;
+
+}
+
+
+
+
+.box2 {
+    background-image: url(./images/img2.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box3 {
+    background-image: url(./images/img3.jpg);
+    background-position: center;
+    background-size: 115% 100%;
+}
+
+
+
+.box4 {
+    background-image: url(./images/img4.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box5 {
+    background-image: url(./images/img5.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box6 {
+    background-image: url(./images/img6.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box7 {
+    background-image: url(./images/img7.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box8 {
+    background-image: url(./images/img8.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box9 {
+    background-image: url(./images/img9.jpg);
+    background-position: center;
+    background-size: 115% 100%;
+}
+
+
+.box10 {
+    background-image: url(./images/img10.jpg);
+    background-position: center;
+    background-size: 115% 100%;
+}
+
+
+
+.box11 {
+    background-image: url(./images/img11.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box12 {
+    background-image: url(./images/img12.jpg);
+    background-position: center;
+    background-size: 115% 100%;
+}
+
+
+
+.box13 {
+    background-image: url(./images/img13.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.box14 {
+    background-image: url(./images/img14.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+
+.box15 {
+    background-image: url(./images/img15.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+.box16 {
+    background-image: url(./images/img16.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+@media (max-width: 960px){
+    .con3 {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(16, 330px);
+        justify-content: center;
+        background-color:  rgb(254, 215, 204);
+        row-gap: 10px;
+        padding: 20px 0px;
+    
+    }
+}
+
+
+/* ================================================================================================================================================= */
+
+.footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(254, 215, 204);
+    color: white;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.foot1 i {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.foot2 {
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 500;
+}
+@media (max-width: 960px){
+    .footer {
+        display: none;
+    }
+}
+
+/* ========================================================================================================================================================= */
